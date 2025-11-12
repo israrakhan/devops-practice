@@ -1,0 +1,38 @@
+What is DevOps?
+→ Explain in 4–5 lines what DevOps means and why it’s used.
+Ans:- DevOps is a collaborative software development approach that combines development and operations teams to deliver applications and services faster and more reliably.
+DevOps emphasizes automation, continuous improvement, and shared responsibility for product success. Organizations adopt DevOps because it enables faster delivery of features, better collaboration between teams, reduced manual errors, improved code quality, enhanced security, and easier scaling of applications.
+
+
+7 Stages of DevOps Lifecycle
+→ List and briefly explain each stage.
+Ans:-
+1. Continuous Development:- This initial phase focuses on project planning and coding. Team members gather requirements from stakeholders, plan the software features, and write the code.
+2. Continuous Integration (CI) In this crucial phase, developers regularly merge their code changes into a central repository multiple times a day or after every commit. 
+3. Continuous Testing:-Automated testing is performed throughout the development process to ensure code quality and reliability. 
+4. Continuous Deployment (CD):-Once code passes all tests, it is automatically deployed to staging or production environments.
+5. Continuous Monitoring:-After deployment to production, continuous monitoring tracks system health, performance, and user experience. 
+6. Continuous Feedback:-Monitoring data and user feedback are collected and analyzed to identify areas for improvement.
+7. Continuous Operations:-The final stage focuses on managing the application in the live production environment. This includes provisioning resources, ensuring uptime, managing infrastructure scaling, and performing maintenance tasks.
+
+
+
+Full form of CI/CD + One Real-Life Example
+→ Write the full form of CI/CD and explain a small example (e.g., how an app automatically updates after code changes).
+Ans:- Continuous Integration (CI): The practice of frequently merging code changes into a shared repository and automatically testing them .
+Continuous Deployment (CD): Automatically deploying validated code changes to production environments after passing all tests.
+Example:-
+Developer Commits Code: A developer writes code to add a new payment feature to the shopping cart and commits it to the GitHub repository.
+CI Pipeline Triggers: The commit automatically triggers the CI pipeline. The system pulls the latest code, builds it using Maven, and runs automated unit tests and integration tests.
+Build and Test: If all tests pass, the build succeeds and a Docker container is created with the application and all its dependencies packaged together.
+Deployment to Staging: The Docker container is automatically deployed to a staging environment where further testing occurs (performance testing, user acceptance testing).
+Production Deployment: After passing all validations, the CD pipeline automatically deploys the new version to production without any manual intervention. Users instantly gain access to the new payment feature.
+Monitoring: Prometheus and Grafana dashboards monitor the application's performance in real-time. If there are any issues (increased error rates, slow response times), alerts are triggered, and the team is notified immediately.
+
+
+
+Tools Discussed in Class 
+→ Write what each tool is used for in simple terms.
+Ans:-  1. Git we used for version control and created a repository in it.learn few commands like a). git add . b).  git push   c).git commit -m “My message” 
+2. Vs-Code  
+
